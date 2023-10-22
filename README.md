@@ -18,15 +18,18 @@
 
 ## 스킬
 ### 보유 스킬
-- C / C++, Unreal Engine
+#### 1. C / C++, Unreal Engine
   - Unreal Engine과 C++를 이용하여 개인프로젝트 'LS'를 진행하고 있습니다.  
-- C\#, Unity
+#### 2. C\#, Unity
   - Unity와 C\#을 이용하여 개인프로젝트 'MRid'를 제작했습니다.
+
+<br>
+
 ### 배우고 있는 스킬
 
 #### 1. 그래픽스
-- 그래픽스 관련 역량을 키우기 위해 [홍정모의 그래픽스 새싹코스] 를 수강하고 있습니다.
-  [![graphics](./Images/Graphics.JPG)](https://honglab.co.kr/)
+- 그래픽스 관련 역량을 키우기 위해 [홍정모의 그래픽스 새싹코스] 를 수강하고 있습니다.  
+  [![graphics](./Images/Graphics.png)](https://honglab.co.kr/)
 
 #### 2. 서버
 - Multiplayer 게임 제작 역량을 키우기 위해 언리얼 엔진의 리슨서버를 다루는 유데미 강의를 수강하며 프로젝트에 적용중입니다.
@@ -47,7 +50,7 @@
 
 <br>
 
-## LS
+## 1️⃣ LS
 > 자세한 프로젝트 관련 내용은 [하단](#ls)에서 확인 가능합니다.
 ### 개요
 - 게임 장르 : looter shooter(TPS + RPG)  
@@ -63,7 +66,7 @@
 
 <br>
 
-## MRid
+## 2️⃣ MRid
 > 자세한 프로젝트 관련 내용은 [하단](#mrid)에서 확인 가능합니다.  
 ### 개요
 - 게임 장르 : simulation, management  
@@ -82,7 +85,7 @@
 # LS
 
 ## 프로젝트 소개
-> GitHub : [LS Project](https://github.com/chocobubble/LooterShooter)
+> GitHub : [LS Project](https://github.com/chocobubble/LooterShooter)  
 > Wiki : [LS Wiki](https://github.com/chocobubble/LooterShooter/wiki)
 
 - 게임 장르 : looter shooter(RPG + TPS)  
@@ -146,12 +149,10 @@
 - 무기 클래스에 다양한 부가 속성을 구현하는 과정에서 무기 클래스가 과도하게 커지는 경향이 있었습니다.
 - 그리고 부가 속성을 추가할 때 마다 무기 클래스를 수정해야 했고 그 과정속에서 에러가 발생하는 경우가 있었습니다.
 - 해결 방안으로 다형성을 이용하여 유연하고 확장성있게 부가 속성을 구현했습니다.
-
-
-<br>
-
+- 
 ---
 
+<br>
 
 ### 프로젝트 Wiki
 > [[Document]](https://github.com/chocobubble/LooterShooter/wiki/Document)
@@ -159,34 +160,27 @@
 - GitHub의 Wiki에 프로젝트에서 구현한 기능들을 정리했습니다.
 - 아래 링크를 통해 확인 가능합니다.
 
-
----
 ### 프로젝트 소스 코드
 > [[GitHub]](https://github.com/chocobubble/LooterShooter/tree/main/Source/LooterShooter)
 
 - 프로젝트의 GitHub 링크입니다.
 
-<br>
 
 > [Back to Top](#프로젝트)
 
 ---
 
+<br><br>
 
 # MRid
 
-> 노션 링크: [MRid](https://www.notion.so/MRid-59a469565e9047f2aa3feb90be2362f8?pvs=21)
+> 노션에서 플레이 영상 등 더 자세한 내용 확인 가능합니다.  
+> Notion: [Notion](https://www.notion.so/MRid-12b24ec49c8b49c6ba6b304f169e12c4?pvs=4)  
+> GitHub: [GitHub](https://github.com/chocobubble/MRid-Demo)
 
-
-  - [소개 - 노션](https://www.notion.so/MRid-12b24ec49c8b49c6ba6b304f169e12c4?pvs=4)
-  - [코드 - 깃헙](https://github.com/chocobubble/MRid-Demo)
-
----
 
 ## 프로젝트 소개
-
-- 이 게임의 이름은 MRid 입니다. Football Manager와 World of Warcraft에서 아이디어를 가져왔습니다. 이 게임에서, 플레이어는 캐릭터들을 고용하고, 던전을 계속 반복해서 클리어하면서 캐릭터들을 성장시켜 최종적으로 마지막 던전을 클리어하는 것이 목표입니다. 전투는 AI로 진행됩니다. 던전에서 수집한 재화와 경험치를 이용해서 캐릭터들의 능력치를 업그레이드하며 더 강한 캐릭터를 고용하고 장비를 구매합니다.
-- Github : [https://github.com/chocobubble/MRid-Demo](https://github.com/chocobubble/MRid-Demo)
+World of Warcraft와 Football Manager에서 아이디어를 가져왔습니다. 이 게임에서, 플레이어는 캐릭터들을 고용하고, 던전을 계속 반복해서 클리어하면서 캐릭터들을 성장시켜 최종적으로 마지막 던전을 클리어하는 것이 목표입니다. 전투는 AI로 진행됩니다. 던전에서 수집한 재화와 경험치를 이용해서 캐릭터들의 능력치를 업그레이드하며 더 강한 캐릭터를 고용하고 장비를 구매합니다.
 - 게임 장르 : simulation, management  
 - 제작 기간 : 2023. 4. ~ 2023. 5.
 - 사용 엔진 : Unity
@@ -219,15 +213,13 @@
 - 던전 및 그 던전의 어려움 정도를 결정하는 화면입니다.
 - start 버튼을 누르면 Prepare Screen UI가 팝업됩니다.
 - 게임 진행도에 따라 표시되는 던전의 종류와 어려움 정도가 다릅니다. LevelSO scriptable object에 의해 결정됩니다.
-
-[dungeon, prepare.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f71447a7-3e1e-4000-8a0c-20ecc94c0f67/dungeon_prepare.mov)
+  ![dungeon](./Images/dungeon.png)
 
 ### Prepare Screen
 
 - dungeon screen 에서 start 버튼을 누르면 이 screen이 팝업되어 나타납니다.
 - 보유하고 있는 캐릭터 중 원하는 멤버를 골라 전투에 참여시킵니다.
-
-![스크린샷 2023-04-11 오전 8.16.11.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d281de88-976a-4fef-b104-bdb585d047e1/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-04-11_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_8.16.11.png)
+  ![prepare](./Images/prepare.png)
 
 ### Shop Screen
 
@@ -235,7 +227,7 @@
 - 무기와 갑옷을 베이스로, 3종류의 레어도 모두 랜덤으로 결정되어 shop에 나타납니다.
 - 구매한 장비는 GameManager에서 List로 관리합니다.
 
-[shop.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b9866f0c-d1e4-4fb6-b04c-5c3c393d838d/shop.mov)
+ ![shop](./Images/shop.png)
 
 ### Pub Screen
 
@@ -243,14 +235,14 @@
 - 고용한 용병들은 GameManager 에서 List로 관리합니다.
 - 퀘스트 클리어에 따라 시도할 수 있는 던전 종류가 늘어납니다.
 
-[pub.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a2f8c32e-ad16-4579-b85c-11bc2f7c7272/pub.mov)
+ ![pub](./Images/pub.png)
 
 ### Inventory Screen
 
 - 보유하고 있는 장비, 캐릭터 들과 캐릭터들의 스탯을 볼 수 있습니다.
 - 캐릭터들의 장비 전환이 가능합니다.
 
-[inventory.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aec767b5-d743-4e20-a2da-f464dceff5a5/inventory.mov)
+ ![inventory](./Images/inventory.png)
 
 ### Game Scene
 
@@ -258,16 +250,22 @@
 - 아군과 적의 hp를 큰 막대바로 보여주고, 가한 데미지를 수치로, 스킬 시전시 아래의 작은 막대바가 차오릅니다.
 - 아군 캐릭터들은 적의 범위 공격 스킬이 자신의 바닥 아래에 깔리면 범위에서 벗어나는 위치를 찾고 그 위치로 이동합니다.
 - 공격가능한 범위에서 벗어나면 공격할 수 있는 거리 까지 이동하여 공격합니다.
+ ![battle](./Images/battle.png)
 
-[In_fight.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/71dcb88b-0793-459c-b93e-8532f2e0fec8/In_fight.mov)
-
-[After_fight.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f835f4d0-ed26-4e06-a1db-0d4764810d36/After_fight.mov)
-
----
+<br><br>
 
 ## 주요 내용
 
+### A* 알고리즘 (Pathfinding)
+> [코드](https://github.com/chocobubble/MRid-Demo/blob/c740b89cce617a8ed84291c1c60390f7515a89d4/Assets/Scripts/Pathfinding.cs)
+
+- 던전의 맵을 tile과 grid를 이용해 구현했는데, tile이 많아질수록 BFS를 통한 AI 경로찾기의 시간 복잡도가 매우 커져 더 효율적인 알고리즘은 A* 알고리즘을 이용해 AI 경로찾기를 구현했습니다.
+- GameScene의 던전을 tile map과 grid를 이용하여 나누고 이동 가능한 노드들을 미리 세팅해 둔 후, 회피 길찾기 메소드와 공격 길찾기 메소드로 크게 나누었습니다.
+- 회피 메소드는 해당 위치 까지 가는 최소 거리를 구하고 그 경로를 list로 반환합니다
+- 공격 길찾기 메소드는 공격 타겟까지 가는 거리 중 공격 가능 범위에 들어오는 node 발견 시 해당 노드까지의 경로를 list로 반환합니다
+
 ### AI 로직 (AllyCtrl)
+> [코드](https://github.com/chocobubble/MRid-Demo/blob/c740b89cce617a8ed84291c1c60390f7515a89d4/Assets/Scripts/AllyCtrl.cs)
 
 1. 캐릭터들의 상태는 STAY, ATTACK, MOVE 로 구분했습니다.
 2. 캐릭터들은 responseSpeed * 1초 만큼의 시간을 주기로 행동을 결정합니다.
@@ -278,22 +276,6 @@
 3. 적은 공격 스킬 사용 시 모든 아군 캐릭터들에게 이벤트가 발생했음을 알립니다. 판단 코루틴 함수를 정지시키고 다시 판단 코루틴 함수를 호출해서 즉각 이벤트에 반응하게 합니다.
 4. 캐릭터는 이동 대상 위치 까지의 루트를 A* 알고리즘으로 부터 list로 받아 list를 탐색하며 움직입니다.
 5. 공격 상태에서는 스킬을 먼저 사용합니다. 스킬에는 시전시간이 있으며 이 시간동안 캐릭터는 움직일 수 없습니다. 쿨타임이라 스킬 사용이 가능하지 않다면 기본공격을 합니다.
-
-- 코드
-
-[MRid-Demo/AllyCtrl.cs at c740b89cce617a8ed84291c1c60390f7515a89d4 · chocobubble/MRid-Demo](https://github.com/chocobubble/MRid-Demo/blob/c740b89cce617a8ed84291c1c60390f7515a89d4/Assets/Scripts/AllyCtrl.cs)
-
-### A* 알고리즘 (Pathfinding)
-
-- 캐릭터의 길찾기 알고리즘에 A* 알고리즘을 사용하였습니다.
-- GameScene의 던전을 tile map과 grid를 이용하여 나누고
-- 이동 가능한 노드들을 미리 세팅해 둔 후,
-- 회피 길찾기 메소드와 공격 길찾기 메소드로 크게 나누었습니다.
-- 회피 메소드는 해당 위치 까지 가는 최소 거리를 구하고 그 경로를 list로 반환합니다
-- 공격 길찾기 메소드는 공격 타겟까지 가는 거리 중 공격 가능 범위에 들어오는 node 발견 시 해당 노드까지의 경로를 list로 반환합니다
-- 코드
-
-[MRid-Demo/Pathfinding.cs at c740b89cce617a8ed84291c1c60390f7515a89d4 · chocobubble/MRid-Demo](https://github.com/chocobubble/MRid-Demo/blob/c740b89cce617a8ed84291c1c60390f7515a89d4/Assets/Scripts/Pathfinding.cs)
 
 
 > [Back to Top](#프로젝트)
