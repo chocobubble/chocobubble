@@ -87,31 +87,35 @@
 - 제작 기간 : 2023. 6. ~ 현재
 - 제작 인원 : 1인 (개인 프로젝트)
 - 사용 엔진 : Unreal Engine v5.2 
-- 언어 : C++  
+- 언어 : C++
+
 ### 플레이 영상
 - 이미지 클릭 시 유튜브에서 영상이 실행됩니다.
 
 [![play](https://img.youtube.com/vi/greOcRCExUE/0.jpg)](https://youtu.be/greOcRCExUE)
 
----
-
 <br>
+
 ## 주요 기능
 
 ### 1. GitHub의 Project, Issue, Wiki 등을 이용한 프로젝트 관리
-프로젝트 일정 및 목표 관리, 코드 기록 등의 필요성을 느끼고 GitHub의 Project, Issue, Wiki 등의 기능을 이용해 프로젝트를 제작했습니다. 이 프로젝트 이전에 Unity를 이용한 개인 프로젝트 제작 과정에서 프로젝트 일정 등의 관리를 하지 않고 제작을 하다보니 ...  
-#### 1-1. Project
-- GitHub의 Project를 이용하여 프로젝트 일정을 관리 했습니다.
+프로젝트 일정 및 목표 관리, 코드 기록 등의 필요성을 느끼고 GitHub의 Project, Issue, Wiki 등의 기능을 이용해 프로젝트를 제작했습니다. 
+
+1. Project
+  - GitHub의 Project를 이용하여 프로젝트 일정을 관리 했습니다.
+
 [![project](./Images/Project_main.JPG)](https://github.com/users/chocobubble/projects/2)
 
-#### 1-2. Issue
-- GitHub의 Project에 들어가는 Issue들이며, Git Commit 과 연동해 각 Issue에 해당하는 Commit들을 바로 확인할 수 있었습니다.
-- 체크박스를 통해 세부 목표관리를 했습니다.
+2. Issue
+  - GitHub의 Project에 들어가는 Issue들이며, Git Commit 과 연동해 각 Issue에 해당하는 Commit들을 바로 확인할 수 있었습니다.
+  - 체크박스를 통해 세부 목표관리를 했습니다.
+
 [![Issue](./Images/Project_issue_2.JPG)](https://github.com/chocobubble/LS/issues/11)
 
-#### 1-3 Wiki
+3. Wiki
+  - 프로젝트에서 구현한 기능들을 GitHub의 Wiki를 통해 정리했습니다.
+
 [사진 넣기][링크]
-- 프로젝트에서 구현한 기능들을 GitHub의 Wiki를 통해 정리했습니다.
 
 <br>
 
