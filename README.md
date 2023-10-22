@@ -18,10 +18,10 @@
 
 ## 스킬
 ### 보유 스킬
-  1. C / C++, Unreal Engine
-
-  2. C\#, Unity
-
+- C / C++, Unreal Engine
+  - Unreal Engine과 C++를 이용하여 개인프로젝트 'LS'를 진행하고 있습니다.  
+- C\#, Unity
+  - Unity와 C\#을 이용하여 개인프로젝트 'MRid'를 제작했습니다.
 ### 배우고 있는 스킬
 
 #### 1. 그래픽스
@@ -47,7 +47,7 @@
 
 <br>
 
-## 1. LS
+## LS
 > 자세한 프로젝트 관련 내용은 [하단](#ls)에서 확인 가능합니다.
 ### 개요
 - 게임 장르 : looter shooter(TPS + RPG)  
@@ -63,7 +63,7 @@
 
 <br>
 
-## 2. MRid
+## MRid
 > 자세한 프로젝트 관련 내용은 [하단](#mrid)에서 확인 가능합니다.  
 ### 개요
 - 게임 장르 : simulation, management  
@@ -76,6 +76,8 @@
 ---
 
 <br><br>
+
+> 각 프로젝트의 세부 설명입니다.
 
 # LS
 
@@ -101,21 +103,22 @@
 ### 1. GitHub의 Project, Issue, Wiki 등을 이용한 프로젝트 관리
 프로젝트 일정 및 목표 관리, 코드 기록 등의 필요성을 느끼고 GitHub의 Project, Issue, Wiki 등의 기능을 이용해 프로젝트를 제작했습니다. 
 
-1. Project
+- Project
   - GitHub의 Project를 이용하여 프로젝트 일정을 관리 했습니다.
 
 [![project](./Images/Project_main.JPG)](https://github.com/users/chocobubble/projects/2)
 
-2. Issue
+- Issue
   - GitHub의 Project에 들어가는 Issue들이며, Git Commit 과 연동해 각 Issue에 해당하는 Commit들을 바로 확인할 수 있었습니다.
   - 체크박스를 통해 세부 목표관리를 했습니다.
 
-[![Issue](./Images/Project_issue_2.JPG)](https://github.com/chocobubble/LS/issues/11)
+[![Issue](./Images/Project_issue_2.JPG)](https://github.com/chocobubble/LS/issues/11) 
 
-3. Wiki
+- Wiki
   - 프로젝트에서 구현한 기능들을 GitHub의 Wiki를 통해 정리했습니다.
 
-[사진 넣기][링크]
+[![Wiki](Images/Wiki.png)](https://github.com/chocobubble/LS/wiki)
+
 
 <br>
 
@@ -150,16 +153,18 @@
 ---
 
 
-## 프로젝트 Wiki
+### 프로젝트 Wiki
+> [[Document]](https://github.com/chocobubble/LooterShooter/wiki/Document)
+
 - GitHub의 Wiki에 프로젝트에서 구현한 기능들을 정리했습니다.
 - 아래 링크를 통해 확인 가능합니다.
-> [[Document 링크]](https://github.com/chocobubble/LooterShooter/wiki/Document)
 
 
 ---
-# 프로젝트 소스 코드
+### 프로젝트 소스 코드
+> [[GitHub]](https://github.com/chocobubble/LooterShooter/tree/main/Source/LooterShooter)
+
 - 프로젝트의 GitHub 링크입니다.
-> [[GitHub 링크]](https://github.com/chocobubble/LooterShooter/tree/main/Source/LooterShooter)
 
 <br>
 
@@ -178,45 +183,30 @@
 
 ---
 
-# 1️⃣ 게임 소개
-
-## 개요
+## 프로젝트 소개
 
 - 이 게임의 이름은 MRid 입니다. Football Manager와 World of Warcraft에서 아이디어를 가져왔습니다. 이 게임에서, 플레이어는 캐릭터들을 고용하고, 던전을 계속 반복해서 클리어하면서 캐릭터들을 성장시켜 최종적으로 마지막 던전을 클리어하는 것이 목표입니다. 전투는 AI로 진행됩니다. 던전에서 수집한 재화와 경험치를 이용해서 캐릭터들의 능력치를 업그레이드하며 더 강한 캐릭터를 고용하고 장비를 구매합니다.
 - Github : [https://github.com/chocobubble/MRid-Demo](https://github.com/chocobubble/MRid-Demo)
-
-## 프로그래밍 언어
-
-- C#
-
-## 개발 엔진
-
-- Unity Engine
-
-## 장르
-
-- Simulation
-- Mangement
-
-## 역할
-
-- 1인 제작
+- 게임 장르 : simulation, management  
+- 제작 기간 : 2023. 4. ~ 2023. 5.
+- 사용 엔진 : Unity
+- 언어 : C#
 
 ---
 
-# 2️⃣ 게임 설명
+## 게임 설명
 
-## 캐릭터
+### 캐릭터
 
 - scriptable object(CharacterSO)와 prefab을 이용하여 캐릭터들을 구성하였습니다. 캐릭터의 scriptable object는 크게 두가지로 나누었습니다. 하나는, 캐릭터 직업별 베이스 스탯을 나타내는 scriptable object입니다. 다른 하나는, 게임 실행 중 scene 간의 이동에 있어 유지되어야 하는 데이터들을 보관하는 scriptable object로, 인게임 중에 scriptable object를 인스턴스화하여 사용합니다.
 - prefab도 캐릭터 직업별 베이스를 구성하는데 사용하였습니다.
 - 캐릭터를 구성하는 script는 두가지 입니다. 하나는 AllyCtrl 로, 전투 시 캐릭터의 움직임을 구사하며, 다른 하나는 ChracterStats로, 전투 시 일시적으로 변하는 스탯들을 보관합니다.
 
-## 장비
+### 장비
 
 - scriptable object(EquipmentSO)를 이용하였습니다
 
-## UI
+### UI
 
 - Unity UI Toolkit 을 이용하여 제작하였습니다.
 
@@ -275,9 +265,9 @@
 
 ---
 
-# 3️⃣ 주요 scripts
+## 주요 내용
 
-## 아군 캐릭터 컨트롤 (AllyCtrl)
+### AI 로직 (AllyCtrl)
 
 1. 캐릭터들의 상태는 STAY, ATTACK, MOVE 로 구분했습니다.
 2. 캐릭터들은 responseSpeed * 1초 만큼의 시간을 주기로 행동을 결정합니다.
@@ -293,7 +283,7 @@
 
 [MRid-Demo/AllyCtrl.cs at c740b89cce617a8ed84291c1c60390f7515a89d4 · chocobubble/MRid-Demo](https://github.com/chocobubble/MRid-Demo/blob/c740b89cce617a8ed84291c1c60390f7515a89d4/Assets/Scripts/AllyCtrl.cs)
 
-## A* 알고리즘 (Pathfinding)
+### A* 알고리즘 (Pathfinding)
 
 - 캐릭터의 길찾기 알고리즘에 A* 알고리즘을 사용하였습니다.
 - GameScene의 던전을 tile map과 grid를 이용하여 나누고
