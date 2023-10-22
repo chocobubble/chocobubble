@@ -28,18 +28,18 @@
 ### 배우고 있는 스킬
 
 #### 1. 그래픽스
-- 그래픽스 관련 역량을 키우기 위해 [홍정모의 그래픽스 새싹코스] 를 수강하고 있습니다.  
-  [![graphics](./Images/Graphics.png)](https://honglab.co.kr/)
+- 그래픽스 관련 역량을 키우기 위해 [홍정모의 그래픽스 새싹코스] 를 수강하고 있습니다.
+  [<img width="523" alt="graphics" src="./Images/Graphics.png">](https://honglab.co.kr/)
 
 #### 2. 서버
 - Multiplayer 게임 제작 역량을 키우기 위해 언리얼 엔진의 리슨서버를 다루는 유데미 강의를 수강하며 프로젝트에 적용중입니다.
-  [![Multiplayer](./Images/Udemy.png)](https://www.udemy.com/course/unreal-engine-5-cpp-multiplayer-shooter/)
+[<img width="523" alt="Multiplayer" src="./Images/Udemy.png">](https://www.udemy.com/course/unreal-engine-5-cpp-multiplayer-shooter/)
 
 <br>
 
 ## 기술 블로그
 - 게임 클라이언트 프로그래머가 되기 위해 관련 지식을 책을 통해 쌓았고, 이를 정리하여 제 개인 블로그에 포스팅하고 있습니다.
-  [![blog](./Images/Blog.png)](https://chocobubble.github.io/)
+  [<img width="523" alt="blog" src="./Images/Blog.png">](https://chocobubble.github.io/)
 
 
 
@@ -119,8 +119,7 @@
 
 - Wiki
   - 프로젝트에서 구현한 기능들을 GitHub의 Wiki를 통해 정리했습니다.
-
-[![Wiki](Images/Wiki.png)](https://github.com/chocobubble/LS/wiki)
+  [<img width="523" alt="Wiki" src="./Images/Wiki.png">](https://github.com/chocobubble/LS/wiki)
 
 
 <br>
