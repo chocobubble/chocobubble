@@ -20,19 +20,16 @@
 ### 보유 스킬
 #### 1. C / C++, Unreal Engine
   - Unreal Engine과 C++를 이용하여 개인프로젝트 'LS'를 진행하고 있습니다.  
+
 #### 2. C\#, Unity
   - Unity와 C\#을 이용하여 개인프로젝트 'MRid'를 제작했습니다.
 
-<br>
-
-### 배우고 있는 스킬
-
-#### 1. 그래픽스
-- 그래픽스 관련 역량을 키우기 위해 [홍정모의 그래픽스 새싹코스] 를 수강하고 있습니다.
+#### 3. 그래픽스
+- 그래픽스 관련 역량을 키우기 위해 [홍정모의 그래픽스 새싹코스] 를 수강했습니다.
   [<img width="523" alt="graphics" src="./Images/Graphics.png">](https://honglab.co.kr/)
 
-#### 2. 서버
-- Multiplayer 게임 제작 역량을 키우기 위해 언리얼 엔진의 리슨서버를 다루는 유데미 강의를 수강하며 프로젝트에 적용중입니다.  
+#### 4. 서버
+- Multiplayer 게임 제작 역량을 키우기 위해 언리얼 엔진의 리슨서버를 다루는 유데미 강의를 수강하며 프로젝트를 제작해 보았습니다.  
 [<img width="523" alt="Multiplayer" src="./Images/Udemy.png">](https://www.udemy.com/course/unreal-engine-5-cpp-multiplayer-shooter/)
 
 <br>
