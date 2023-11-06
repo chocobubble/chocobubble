@@ -108,18 +108,20 @@
 
 - Project
   - GitHub의 Project를 이용하여 프로젝트 일정을 관리 했습니다.
-
-[![project](./Images/Project_main.JPG)](https://github.com/users/chocobubble/projects/2)
+  
+     [<img width="750" alt="project" src="./Images/Project_main.JPG">](https://github.com/users/chocobubble/projects/2)
 
 - Issue
   - GitHub의 Project에 들어가는 Issue들이며, Git Commit 과 연동해 각 Issue에 해당하는 Commit들을 바로 확인할 수 있었습니다.
   - 체크박스를 통해 세부 목표관리를 했습니다.
+  
+   [<img width="750" alt="Issue" src="./Images/Project_issue_2.JPG">](https://github.com/chocobubble/LS/issues/11)
 
-[![Issue](./Images/Project_issue_2.JPG)](https://github.com/chocobubble/LS/issues/11) 
 
 - Wiki
   - 프로젝트에서 구현한 기능들을 GitHub의 Wiki를 통해 정리했습니다.
-  [<img width="523" alt="Wiki" src="./Images/Wiki.png">](https://github.com/chocobubble/LS/wiki)
+  
+   [<img width="750" alt="wiki" src="./Images/Wiki.png">](https://github.com/chocobubble/LS/wiki)
 
 
 <br>
@@ -240,13 +242,14 @@ World of Warcraft와 Football Manager에서 아이디어를 가져왔습니다. 
 - 던전 및 그 던전의 어려움 정도를 결정하는 화면입니다.
 - start 버튼을 누르면 Prepare Screen UI가 팝업됩니다.
 - 게임 진행도에 따라 표시되는 던전의 종류와 어려움 정도가 다릅니다. LevelSO scriptable object에 의해 결정됩니다.
-  ![dungeon](./Images/dungeon.png)
+ 
+    [<img width="500" alt="dungeon" src="./Images/dungeon.png">]
 
 ### Prepare Screen
 
 - dungeon screen 에서 start 버튼을 누르면 이 screen이 팝업되어 나타납니다.
-- 보유하고 있는 캐릭터 중 원하는 멤버를 골라 전투에 참여시킵니다.
-  ![prepare](./Images/prepare.png)
+- 보유하고 있는 캐릭터 중 원하는 멤버를 골라 전투에 참여시킵니다.  
+    [<img width="500" alt="prepare" src="./Images/prepare.png">]
 
 ### Shop Screen
 
@@ -254,7 +257,7 @@ World of Warcraft와 Football Manager에서 아이디어를 가져왔습니다. 
 - 무기와 갑옷을 베이스로, 3종류의 레어도 모두 랜덤으로 결정되어 shop에 나타납니다.
 - 구매한 장비는 GameManager에서 List로 관리합니다.
 
- ![shop](./Images/shop.png)
+   [<img width="500" alt="shop" src="./Images/shop.png">]
 
 ### Pub Screen
 
@@ -262,22 +265,22 @@ World of Warcraft와 Football Manager에서 아이디어를 가져왔습니다. 
 - 고용한 용병들은 GameManager 에서 List로 관리합니다.
 - 퀘스트 클리어에 따라 시도할 수 있는 던전 종류가 늘어납니다.
 
- ![pub](./Images/pub.png)
+   [<img width="500" alt="pub" src="./Images/pub.png">]
 
 ### Inventory Screen
 
 - 보유하고 있는 장비, 캐릭터 들과 캐릭터들의 스탯을 볼 수 있습니다.
 - 캐릭터들의 장비 전환이 가능합니다.
 
- ![inventory](./Images/inventory.png)
+   [<img width="500" alt="inventory" src="./Images/inventory.png">]
 
 ### Game Scene
 
 - Prepare screen 에서 start 버튼을 누르면 이 scene 으로 이동합니다.
 - 아군과 적의 hp를 큰 막대바로 보여주고, 가한 데미지를 수치로, 스킬 시전시 아래의 작은 막대바가 차오릅니다.
 - 아군 캐릭터들은 적의 범위 공격 스킬이 자신의 바닥 아래에 깔리면 범위에서 벗어나는 위치를 찾고 그 위치로 이동합니다.
-- 공격가능한 범위에서 벗어나면 공격할 수 있는 거리 까지 이동하여 공격합니다.
- ![battle](./Images/battle.png)
+- 공격가능한 범위에서 벗어나면 공격할 수 있는 거리 까지 이동하여 공격합니다.  
+   [<img width="500" alt="game" src="./Images/battle.png">]
 
 
 <br><br>
