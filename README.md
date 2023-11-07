@@ -131,7 +131,7 @@
 - Wiki
   - 프로젝트에서 구현한 기능들을 GitHub의 Wiki를 통해 정리했습니다.
   
-   [<img width="750" alt="wiki" src="./Images/Wiki.png">](https://github.com/chocobubble/LS/wiki)
+   [<img width="523" alt="wiki" src="./Images/Wiki.png">](https://github.com/chocobubble/LS/wiki)
 
 
 <br>
