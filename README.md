@@ -59,7 +59,7 @@
 <br>
 
 ## 1️⃣ LS
-> 자세한 프로젝트 관련 내용은 [하단](#ls)에서 확인 가능합니다.
+> 자세한 프로젝트 관련 내용은 [하단](#ls) 혹은 [Github Wiki](https://github.com/chocobubble/LooterShooter/wiki)에서 확인 가능합니다.
 ### 개요
 - 게임 장르 : looter shooter(TPS + RPG)  
 - 제작 기간 : 2023. 6. ~ 10.
@@ -76,7 +76,7 @@
 <br>
 
 ## 2️⃣ MRid
-> 자세한 프로젝트 관련 내용은 [하단](#mrid)에서 확인 가능합니다.  
+> 자세한 프로젝트 관련 내용은 [하단](#mrid) 혹은 [노션](https://www.notion.so/MRid-12b24ec49c8b49c6ba6b304f169e12c4?pvs=4)에서 확인 가능합니다.  
 ### 개요
 - 게임 장르 : simulation, management  
 - 제작 기간 : 2023. 4. ~ 2023. 5.
