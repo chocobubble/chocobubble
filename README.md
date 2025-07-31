@@ -12,9 +12,18 @@
 - Blog.  https://chocobubble.github.io/
 - GitHub.  https://github.com/chocobubble/
 
+## 경력
+
+### 퍼즐원 스튜디오 - 플랫폼 클라이언트 개발자 (파트 리더)
+**2024.01 ~ 현재**
+- 회사 내 모바일 게임 대상 공통 모듈 및 툴 개
+- macOS 빌드 환경 구축, 딥링크를 통한 레벨 테스트 시스템 구축
+- .NET Roslyn 기반 대규모 코드베이스 리팩토링 & 검증 시스템 구축
+- 광고 등 외부 sdk 통합 & 유지보수 
+
 <br>
 
-## ️ 기술 스택
+## ️기술 스택
 
 ### 개발 언어
 
@@ -47,7 +56,7 @@ DirectX 12를 기반으로 구축한 3D 렌더링 엔진입니다. 현대적인 
 - 사용 기술 : DirectX 12, C++, HLSL
 - 언어 : C++
 
-![lunar](./Images/lunar.png)
+![lunar](./Images/ibl.gif)
 
 
 
