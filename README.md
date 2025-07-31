@@ -12,59 +12,17 @@
 - Blog.  https://chocobubble.github.io/
 - GitHub.  https://github.com/chocobubble/
 
-## 🔍 핵심 역량
-
-> 💡 다중 플랫폼 개발 경험
-> 
-- Android, iOS, macOS 플랫폼 빌드 환경 유지보수 및 구축
-- 크로스 플랫폼 딥링크 기능 구현
-- 외부 SDK 통합 및 최적화
-
-> 💡 빠른 프로토타입 개발
-> 
-- 2주 내 Match-3 게임 프로토타입 개발
-- 다양한 게임 엔진(Unity, Unreal Engine) 활용 경험
-
-> 💡 자동화 시스템 구축
-> 
-- 코드 품질 분석 및 자동화된 코드 리뷰 시스템 개발
-- 빌드 및 배포 프로세스 자동화
-- AI 기술을 활용한 개발 생산성 향상
-
-> 💡 새로운 기술 학습 및 적용
-> 
-- 다양한 프로그래밍 언어 및 프레임워크 학습
-- 실험적인 기술 탐구 및 프로젝트 적용
-- 지속적인 자기계발 및 기술 트렌드 연구
-
-
 <br>
 
-## 🛠️ 기술 스택
+## ️ 기술 스택
 
 ### 개발 언어
 
-`C#` `C++` `Python` `Groovy` `Rust` `Java` `Objective-C`
+`C#` `C++` `Python`  
 
 ### 게임 엔진
 
-`Unity` `Unreal Engine`
-
-### 도구 및 플랫폼
-
-`Jenkins` `GitLab` `SonarQube` `Android` `iOS` `macOS`
-
-### 자동화 및 AI
-
-`CI/CD 파이프라인` `로컬 LLM` `AI API` `dotnet Roslyn` `강화학습`
-
-
-<br>
-
-## 기술 블로그
-- 게임 클라이언트 프로그래머가 되기 위해 관련 지식을 책과 유데미 강의를 통해 쌓았습니다.
-- 이를 정리하여 Github 블로그에 포스팅하고 있습니다.  
-  [<img width="523" alt="blog" src="./Images/Blog.png">](https://chocobubble.github.io/)
+`DirectX` `Unity` `Unreal Engine`
 
 
 
@@ -74,7 +32,63 @@
 
 <br>
 
-## 1️⃣ LS
+## 1. DirectX12 3D 렌더링 엔진
+
+### 프로젝트 소개
+
+DirectX 12를 기반으로 구축한 3D 렌더링 엔진입니다. 현대적인 그래픽스 기법들을 단계적으로 구현하며, 각 기능의 개발 과정과 문제 해결 과정을 문서화했습니다.
+
+> GitHub : [DirectX12 Graphics Engine](https://github.com/chocobubble/DirectX12-Graphics)  
+> Wiki : [DirectX12 Graphics Wiki](https://github.com/chocobubble/DirectX12-Graphics/wiki)
+
+- 프로젝트 유형 : 3D 렌더링 엔진
+- 제작 기간 : 2025. 6. ~ 현재
+- 제작 인원 : 1인 (개인 프로젝트)
+- 사용 기술 : DirectX 12, C++, HLSL
+- 언어 : C++
+
+![lunar](./Images/lunar.png)
+
+
+
+
+### 주요 구현 기능
+
+- **PBR (Physically Based Rendering)** - Cook-Torrance BRDF 모델
+- **IBL (Image Based Lighting)** - HDR 환경 맵 기반 조명
+- **테셀레이션** - Hull/Domain Shader를 활용한 적응적 지오메트리 세분화
+- **그림자 매핑** - 깊이 버퍼 기반 실시간 그림자
+- **노말 매핑** - TBN 공간 변환을 통한 디테일 향상
+- **GPU 기반 파티클 시스템** - Compute Shader 활용
+- **거울 반사** - Stencil Buffer를 활용한 평면 반사
+- **빌보드 렌더링** - Geometry Shader 기반
+- **포스트 프로세싱** - Compute Shader 활용한 가우시안 블러
+
+### 상세 문서
+
+#### **[프로젝트 위키 바로가기](../../wiki)**
+
+### 주요 결과물
+
+| 기능 | 구현 내용 | 개발일지 |
+|------|-----------|----------|
+| PBR 렌더링 | Cook-Torrance 모델, Metallic-Roughness  | [상세보기](../../wiki/2025-07-06-PBR) |
+| IBL 시스템 | Irradiance Map, Prefiltered Environment Map | [상세보기](../../wiki/2025-07-12-Ibl) |
+| 테셀레이션 | 거리 기반 적응적 지오메트리 세분화, 와이어프레임 시각화 | [상세보기](../../wiki/2025-07-09-Tessellation) |
+| 파티클 시스템 | GPU 기반 물리 시뮬레이션 | [상세보기](../../wiki/2025-07-05-Particle) |
+
+### 학습 자료
+
+이 프로젝트는 다음 자료들을 참고하여 개발되었습니다:
+
+- [홍정모 연구소 컴퓨터 그래픽스 새싹코스](https://www.honglab.ai/courses/graphicspt1)
+- DirectX 12를 이용한 3D 게임 프로그래밍 입문 (Frank Luna)
+
+
+<br><br>
+
+## 2. LooterShooter
+
 > 자세한 프로젝트 관련 내용은 [하단](#ls) 혹은 [Github Wiki](https://github.com/chocobubble/LooterShooter/wiki)에서 확인 가능합니다.
 ### 개요
 - 게임 장르 : looter shooter(TPS + RPG)  
@@ -114,15 +128,12 @@
 
 <br>
 
-## 2️⃣ MRid
-> 자세한 프로젝트 관련 내용은 [하단](#mrid) 혹은 [노션](https://www.notion.so/MRid-12b24ec49c8b49c6ba6b304f169e12c4?pvs=4)에서 확인 가능합니다.  
-### 개요
-- 게임 장르 : simulation, management  
-- 제작 기간 : 2023. 4. ~ 2023. 5.
-- 사용 엔진 : Unity
-- 언어 : C#
+<br>
 
-<br>  
+## 기술 블로그
+- 게임 클라이언트 프로그래머가 되기 위해 관련 지식을 책과 유데미 강의를 통해 쌓았습니다.
+- 이를 정리하여 Github 블로그에 포스팅하고 있습니다.  
+  [<img width="523" alt="blog" src="./Images/Blog.png">](https://chocobubble.github.io/)
 
 ---
 
@@ -130,8 +141,7 @@
 
 <br><br>
 
-
-# LS
+# LooterShooter
 
 ## 프로젝트 소개
 > GitHub : [LS Project](https://github.com/chocobubble/LooterShooter)  
@@ -217,119 +227,3 @@
 
 > [Back to Top](#프로젝트)
 
----
-
-<br><br>
-
-# MRid
-
-> 노션에서 플레이 영상 등 더 자세한 내용 확인 가능합니다.  
-> Notion: [Notion](https://www.notion.so/MRid-12b24ec49c8b49c6ba6b304f169e12c4?pvs=4)  
-> GitHub: [GitHub](https://github.com/chocobubble/MRid-Demo)
-
-
-## 프로젝트 소개
-World of Warcraft와 Football Manager에서 아이디어를 가져왔습니다. 이 게임에서, 플레이어는 캐릭터들을 고용하고, 던전을 계속 반복해서 클리어하면서 캐릭터들을 성장시켜 최종적으로 마지막 던전을 클리어하는 것이 목표입니다. 전투는 AI로 진행됩니다. 던전에서 수집한 재화와 경험치를 이용해서 캐릭터들의 능력치를 업그레이드하며 더 강한 캐릭터를 고용하고 장비를 구매합니다.
-- 게임 장르 : simulation, management  
-- 제작 기간 : 2023. 4. ~ 2023. 5.
-- 사용 엔진 : Unity
-- 언어 : C#
-
----
-<br><br>
-
-## 주요 내용
-
-### A* 알고리즘 (Pathfinding)
-> [코드](https://github.com/chocobubble/MRid-Demo/blob/c740b89cce617a8ed84291c1c60390f7515a89d4/Assets/Scripts/Pathfinding.cs)
-
-- 던전의 맵을 tile과 grid를 이용해 구현했는데, tile이 많아질수록 BFS를 통한 AI 경로찾기의 시간 복잡도가 매우 커져 더 효율적인 알고리즘은 A* 알고리즘을 이용해 AI 경로찾기를 구현했습니다.
-- GameScene의 던전을 tile map과 grid를 이용하여 나누고 이동 가능한 노드들을 미리 세팅해 둔 후, 회피 길찾기 메소드와 공격 길찾기 메소드로 크게 나누었습니다.
-- 회피 메소드는 해당 위치 까지 가는 최소 거리를 구하고 그 경로를 list로 반환합니다
-- 공격 길찾기 메소드는 공격 타겟까지 가는 거리 중 공격 가능 범위에 들어오는 node 발견 시 해당 노드까지의 경로를 list로 반환합니다
-
-### AI 로직 (AllyCtrl)
-> [코드](https://github.com/chocobubble/MRid-Demo/blob/c740b89cce617a8ed84291c1c60390f7515a89d4/Assets/Scripts/AllyCtrl.cs)
-
-- 캐릭터들의 상태는 STAY, ATTACK, MOVE 로 구분했습니다.
-- 캐릭터들은 responseSpeed * 1초 만큼의 시간을 주기로 행동을 결정합니다.
-    - 먼저 현재 위치가 범위스킬안에 포함되어 있는 지 확인하고, 그렇다면 범위 밖으로 이동할 곳을 찾아 이동합니다.
-    - 범위스킬안에 포함되어 있지 않다면 공격 대상과의 거리를 계산합니다.
-        - 대상과의 거리가 공격 가능 거리 이내라면 공격합니다
-        - 그렇지 않다면 공격 가능 거리 이내까지 이동 합니다.
-- 적은 공격 스킬 사용 시 모든 아군 캐릭터들에게 이벤트가 발생했음을 알립니다. 판단 코루틴 함수를 정지시키고 다시 판단 코루틴 함수를 호출해서 즉각 이벤트에 반응하게 합니다.
-- 캐릭터는 이동 대상 위치 까지의 루트를 A* 알고리즘으로 부터 list로 받아 list를 탐색하며 움직입니다.
-- 공격 상태에서는 스킬을 먼저 사용합니다. 스킬에는 시전시간이 있으며 이 시간동안 캐릭터는 움직일 수 없습니다. 쿨타임이라 스킬 사용이 가능하지 않다면 기본공격을 합니다.
-
-<br><br>
-
-
-## 게임 설명
-
-### 캐릭터
-
-- scriptable object(CharacterSO)와 prefab을 이용하여 캐릭터들을 구성하였습니다. 캐릭터의 scriptable object는 크게 두가지로 나누었습니다. 하나는, 캐릭터 직업별 베이스 스탯을 나타내는 scriptable object입니다. 다른 하나는, 게임 실행 중 scene 간의 이동에 있어 유지되어야 하는 데이터들을 보관하는 scriptable object로, 인게임 중에 scriptable object를 인스턴스화하여 사용합니다.
-- prefab도 캐릭터 직업별 베이스를 구성하는데 사용하였습니다.
-- 캐릭터를 구성하는 script는 두가지 입니다. 하나는 AllyCtrl 로, 전투 시 캐릭터의 움직임을 구사하며, 다른 하나는 ChracterStats로, 전투 시 일시적으로 변하는 스탯들을 보관합니다.
-
-### 장비
-
-- scriptable object(EquipmentSO)를 이용하였습니다
-
-### UI
-
-- Unity UI Toolkit 을 이용하여 제작하였습니다.
-
-### Main Screen
-
-- Main Screen은 Dungeon Screen, Shop Screen, Pub Screen, Inventory Screen, Prepare Screen 으로 구성되어 있으며, 화면 왼쪽의 TabBar를 통해 스크린 간의 전환이 이루어집니다.
-
-### Dungeon Screen
-
-- 던전 및 그 던전의 어려움 정도를 결정하는 화면입니다.
-- start 버튼을 누르면 Prepare Screen UI가 팝업됩니다.
-- 게임 진행도에 따라 표시되는 던전의 종류와 어려움 정도가 다릅니다. LevelSO scriptable object에 의해 결정됩니다.
- 
-    [<img width="500" alt="dungeon" src="./Images/dungeon.png">]
-
-### Prepare Screen
-
-- dungeon screen 에서 start 버튼을 누르면 이 screen이 팝업되어 나타납니다.
-- 보유하고 있는 캐릭터 중 원하는 멤버를 골라 전투에 참여시킵니다.  
-    [<img width="500" alt="prepare" src="./Images/prepare.png">]
-
-### Shop Screen
-
-- 장비는 무기와 갑옷으로 이루어져 있으며, scriptable object(EquipmentSO)로 다룹니다.
-- 무기와 갑옷을 베이스로, 3종류의 레어도 모두 랜덤으로 결정되어 shop에 나타납니다.
-- 구매한 장비는 GameManager에서 List로 관리합니다.
-
-   [<img width="500" alt="shop" src="./Images/shop.png">]
-
-### Pub Screen
-
-- pub에서 용병들을 고용하고, 퀘스트를 받습니다.
-- 고용한 용병들은 GameManager 에서 List로 관리합니다.
-- 퀘스트 클리어에 따라 시도할 수 있는 던전 종류가 늘어납니다.
-
-   [<img width="500" alt="pub" src="./Images/pub.png">]
-
-### Inventory Screen
-
-- 보유하고 있는 장비, 캐릭터 들과 캐릭터들의 스탯을 볼 수 있습니다.
-- 캐릭터들의 장비 전환이 가능합니다.
-
-   [<img width="500" alt="inventory" src="./Images/inventory.png">]
-
-### Game Scene
-
-- Prepare screen 에서 start 버튼을 누르면 이 scene 으로 이동합니다.
-- 아군과 적의 hp를 큰 막대바로 보여주고, 가한 데미지를 수치로, 스킬 시전시 아래의 작은 막대바가 차오릅니다.
-- 아군 캐릭터들은 적의 범위 공격 스킬이 자신의 바닥 아래에 깔리면 범위에서 벗어나는 위치를 찾고 그 위치로 이동합니다.
-- 공격가능한 범위에서 벗어나면 공격할 수 있는 거리 까지 이동하여 공격합니다.  
-   [<img width="500" alt="game" src="./Images/battle.png">]
-
-
-<br><br>
-
-> [Back to Top](#프로젝트)
