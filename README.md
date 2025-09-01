@@ -102,16 +102,16 @@ DirectX 12를 기반으로 구축한 3D 렌더링 엔진입니다. 현대적인 
 
 ### 상세 문서
 
-#### **[프로젝트 위키 바로가기](../../wiki)**
+#### **[프로젝트 위키 바로가기](https://github.com/chocobubble/LunarDX12/wiki)**
 
 ### 주요 결과물
 
 | 기능 | 구현 내용 | 개발일지 |
 |------|-----------|----------|
-| PBR 렌더링 | Cook-Torrance 모델, Metallic-Roughness  | [상세보기](../../wiki/2025-07-06-PBR) |
-| IBL 시스템 | Irradiance Map, Prefiltered Environment Map | [상세보기](../../wiki/2025-07-12-Ibl) |
-| 테셀레이션 | 거리 기반 적응적 지오메트리 세분화, 와이어프레임 시각화 | [상세보기](../../wiki/2025-07-09-Tessellation) |
-| 파티클 시스템 | GPU 기반 물리 시뮬레이션 | [상세보기](../../wiki/2025-07-05-Particle) |
+| PBR 렌더링 | Cook-Torrance 모델, Metallic-Roughness  | [상세보기](https://github.com/chocobubble/LunarDX12/wiki/2025-07-06-PBR) |
+| IBL 시스템 | Irradiance Map, Prefiltered Environment Map | [상세보기](https://github.com/chocobubble/LunarDX12/wiki/2025-07-12-Ibl) |
+| 테셀레이션 | 거리 기반 적응적 지오메트리 세분화, 와이어프레임 시각화 | [상세보기](https://github.com/chocobubble/LunarDX12/wiki/2025-07-09-Tessellation) |
+| 파티클 시스템 | GPU 기반 물리 시뮬레이션 | [상세보기](https://github.com/chocobubble/LunarDX12/wiki/2025-07-05-Particle) |
 
 ### 학습 자료
 
