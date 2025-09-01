@@ -74,8 +74,8 @@
 
 DirectX 12를 기반으로 구축한 3D 렌더링 엔진입니다. 현대적인 그래픽스 기법들을 단계적으로 구현하며, 각 기능의 개발 과정과 문제 해결 과정을 문서화했습니다.
 
-> GitHub : [DirectX12 Graphics Engine](https://github.com/chocobubble/DirectX12-Graphics)  
-> Wiki : [DirectX12 Graphics Wiki](https://github.com/chocobubble/DirectX12-Graphics/wiki)
+> GitHub : [DirectX12 Graphics Engine](https://github.com/chocobubble/LunarDX12)  
+> Wiki : [DirectX12 Graphics Wiki](https://github.com/chocobubble/LunarDX12/wiki)
 
 - 프로젝트 유형 : 3D 렌더링 엔진
 - 제작 기간 : 2025. 6. ~ 8.
